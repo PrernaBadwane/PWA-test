@@ -1,0 +1,32 @@
+.shop-card {
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .shop-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .category-name {
+    color: #888;
+    margin-bottom: 15px;
+  }
+  
+  .address {
+    margin-bottom: 15px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-icon {
+    margin: 0 10px;
+  }
