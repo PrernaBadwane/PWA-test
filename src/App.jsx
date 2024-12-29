@@ -39,7 +39,7 @@ const App = () => {
         slideClass="md:w-full md:h-screen w-screen object-cover"
       />
       <Icons />
-      <div className="flex justify-center w-[80vw] h-[100vh] my-10">
+      <div className="flex justify-center w-full h-[100vh] mt-10 mb-20 border-2 border-black">
         <iframe
           src="https://www.flipkart.com"
           title="Flipkart"
