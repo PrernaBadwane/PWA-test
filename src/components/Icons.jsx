@@ -1,27 +1,22 @@
 import React from "react";
+import { ICONS } from "../assets";
 
-
+const iconsData = [
+  { id: "phone", label: "Call", icon: ICONS.phone },
+  { id: "whatsApp", label: "WhatsApp", icon: ICONS.whatsApp },
+  { id: "insta", label: "Instagram", icon: ICONS.insta },
+  { id: "location", label: "Google Map", icon: ICONS.location },
+];
 
 const Icons = () => (
-  <div className="icons">
-  <div>
-    <img src="/images/call.png" alt="Call" />
-    <p>Call</p>
+  <div className="flex justify-around w-full bg-slate-300 h-44 items-center">
+    {iconsData.map(({ id, label, icon }) => (
+      <div key={id} className="flex flex-col justify-center items-center">
+        <img src={icon} alt={label} className="w-12 h-12" />
+        <p className="text-center text-sm md:text-lg font-serif font-medium">{label}</p>
+      </div>
+    ))}
   </div>
-  <div>
-    <img src="/images/wa.png" alt="WhatsApp" />
-    <p>WhatsApp</p>
-  </div>
-  <div>
-    <img src="/images/insta.png" alt="Instagram" />
-    <p>Instagram</p>
-  </div>
-  <div>
-    <img src="/images/map.jpg" alt="Google Map" />
-    <p>Google Map</p>
-  </div>
-</div>
-
 );
 
 export default Icons;

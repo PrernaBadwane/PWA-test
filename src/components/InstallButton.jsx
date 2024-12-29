@@ -54,20 +54,8 @@ const InstallButton = () => {
       <button
         id="install-button"
         onClick={handleInstallClick}
-        style={{
-          width : "100%",
-          bottom: "100vw",
-          right: "60px",
-          background: "linear-gradient(135deg, #6a11cb, #2575fc)",
-          color: "white",
-          padding: "10px 20px",
-          fontSize: "14px",
-          border: "none",
-          borderRadius: "100px",
-          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-          cursor: "pointer",
-          transition: "background-color 0.3s ease, transform 0.3s ease",
-        }}
+        className="fixed bottom-5 left-5 md:w-[85%] w-[70%] bg-gradient-to-br from-[#6a11cb] to-[#2575fc] text-white py-[10px] px-[20px] text-[14px] border-none rounded-full shadow-md cursor-pointer transition-all duration-300 ease-in-out transform hover:bg-blue-500 z-50"
+        
       >
         Install App
       </button>
