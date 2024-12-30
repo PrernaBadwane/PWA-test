@@ -2,12 +2,12 @@ import React from "react";
 import { ICONS } from "../assets";
 
 const iconsData = [
-  { id: "phone", label: "Call", icon: ICONS.phone, path: "tel:6767898956" },
+  { id: "phone", label: "Call", icon: ICONS.phone, path: "tel:+917276514160" },
   {
     id: "whatsApp",
     label: "WhatsApp",
     icon: ICONS.whatsApp,
-    path: "https://wa.me/+8801608249337",
+    path: "https://wa.me/+917276514160",
   },
   {
     id: "insta",
