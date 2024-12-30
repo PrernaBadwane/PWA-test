@@ -36,7 +36,7 @@ const App = () => {
         autoplayDelay={1600}
         speed={3000}
         loop={true}
-        slideClass="md:w-full md:h-screen w-screen object-cover"
+        slideClass="w-full  h-[180px] md:h-[300px] lg:h-[400px] object-cover"
       />
       <Icons />
       <div className="flex justify-center w-full h-[100vh] mt-10 mb-20 border-2 border-black">

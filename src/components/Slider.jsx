@@ -8,7 +8,7 @@ const Slider = ({
   autoplayDelay = 3000,
   speed = 1000,
   loop = true,
-  slideClass = "md:w-full md:h-screen w-screen object-cover",
+  slideClass = ""
 }) => {
   return (
     <div className="w-full h-full overflow-hidden">

@@ -12,28 +12,7 @@ body {
 
 
 
-/* Header Section */
-.header {
-  text-align: center;
-  background-color: #007bff;
-  color: white;
-  padding: 20px 0;
-}
 
-.header h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.header p {
-  margin: 5px 0;
-  font-size: 16px;
-}
-
-.address {
-  font-style: italic;
-  font-size: 14px;
-}
 
 
 

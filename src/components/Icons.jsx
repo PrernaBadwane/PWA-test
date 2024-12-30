@@ -9,10 +9,10 @@ const iconsData = [
 ];
 
 const Icons = () => (
-  <div className="flex justify-around w-full bg-slate-300 h-44 items-center">
+  <div className="flex justify-around w-full bg-slate-100 h-24 items-center gap-2 pt-2">
     {iconsData.map(({ id, label, icon }) => (
       <div key={id} className="flex flex-col justify-center items-center">
-        <img src={icon} alt={label} className="w-12 h-12" />
+        <img src={icon} alt={label} className="w-7 h-7" />
         <p className="text-center text-sm md:text-lg font-serif font-medium">{label}</p>
       </div>
     ))}
