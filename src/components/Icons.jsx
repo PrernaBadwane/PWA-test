@@ -13,7 +13,7 @@ const iconsData = [
     id: "insta",
     label: "Instagram",
     icon: ICONS.insta,
-    path: "https://www.instagram.com/prernabadwane/",
+    path: "https://www.instagram.com/",
   },
   {
     id: "location",
